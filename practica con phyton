@@ -1,0 +1,21 @@
+#Nos han pedido desarrollar una aplicación móvil para reducir comportamientos inadecuados para el ambiente.
+
+#a) Te toca escribir un programa que simule el proceso de Login. Para ello el programa debe preguntar al usuario 
+# la contraseña, y no le permita continuar hasta que la haya ingresado correctamente.
+
+#b) Modificar el programa anterior para que solamente permita una cantidad fija de intentos. 
+
+user = input('Ingrese su nuevo usuario ')
+pasw = input('Ingrese nueva contraseña ')
+
+print('Se ha registrado con exito')
+
+
+user_input = input('Ingrese su usuario ')
+while user_input != user:
+    user_input = input('Ha introducido usuario incorrecto, intentelo nuevamente \n Ingrese su usuario ')
+#pasw_input = ('Coloque su contraseña ')
+#while pasw_input != pasw:
+ #       user_input = input('Ha introducido contraseña incorrecta, intentelo nuevamente \n Ingrese contraseña ')
+        
+print('========Bienvenido============')
